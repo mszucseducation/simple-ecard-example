@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid place-items-center h-screen">
+            <h2 id="title" class="text-xl"></h2>
+            <div id="container">
+                <div id="demo"></div>
+                From: <p id="personName"></p>
+                <div id="address"></div>
+                <div id="imageHolder">
+                    <img id="presentImage" src="" alt="present" style="display:none">
+                </div>
+            </div>
+            <div id="buttonBar" class="sticky text-xl bottom rounded-lg p-5">
+                <button id="delivering" onClick="delivering()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Delivery</button>
+                <button id="atHome" onClick="atHome()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">At Home</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="javascript.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </body>
+</html>
