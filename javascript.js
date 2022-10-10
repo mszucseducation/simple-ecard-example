@@ -60,6 +60,8 @@ function checkIncrementedValue() {
     if(pointsIncrement > 5) {
         alert("Have a good day");
         location.reload();
+    } else { 
+    	//
     }
 }
 
